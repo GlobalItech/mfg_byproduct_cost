@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Finished goods and by-products costing(Manufacturing)",
-    "version": "0.1",
+    'version': '12.0.1.0',
     "author": "ITECH RESOURCES",
     "category": "Manufacturing",
     "description": """
@@ -16,6 +16,6 @@
     "installable": True,
     "auto_install": False,
     'price': 30.00,
-     'license': 'AGPL-3',
+    'license': 'AGPL-3',
     'currency': 'EUR',
 }
