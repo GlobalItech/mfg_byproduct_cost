@@ -15,4 +15,7 @@
              
     "installable": True,
     "auto_install": False,
+    'price': 30.00,
+     'license': 'AGPL-3',
+    'currency': 'EUR',
 }
