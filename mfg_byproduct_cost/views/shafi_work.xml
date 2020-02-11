@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <record id="subproduct_view123" model="ir.ui.view">
+            <field name="name">mrp.bom.sub.product12</field>
+            <field name="model">mrp.bom</field>
+            <field name="inherit_id" ref="mrp.mrp_bom_form_view"/>
+            <field name="arch" type="xml">
+            <xpath expr="//notebook/page/field[@name='sub_products']/tree/field[@name='product_id']" position="after">
+                             <field name="cost_a"/>
+                             <field name="totals_a"/>
+                           
+            </xpath>       
+                        <xpath expr="//notebook/page/field/form/field[@name='product_id']" position="after">
+
+                             <field name="cost_a"/>
+                             <field name="totals_a"/>
+            </xpath>
+            </field>
+        </record>
+        </data>
+        </odoo>
+        
