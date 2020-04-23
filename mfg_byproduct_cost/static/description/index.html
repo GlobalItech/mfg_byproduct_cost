@@ -1,0 +1,142 @@
+<section class="oe_container">
+    <div class="oe_row">
+        <h2 class="oe_slogan"><b>By-Products Costing through Manufacturing</b></h2>
+        
+
+        <div class="oe_span12">
+            <center>
+                 <p class='oe_mt32'>
+                 </p>
+            </center>
+            
+          
+                
+            <p class='oe_mt32'>
+                Scope:<br/>
+                In Odoo manufacturing module, by default, no material cost is allocated to the 
+                by-products manufactured therefore full production cost is charged to main finished goods (FG).
+                
+            </p>
+           
+                
+                <p class='oe_mt32'>
+                    This module helps to reduce the cost of FG as follows:
+                    
+                </p>
+                <center>
+                    <div class="oe_span12">
+                        <ol  type="a">
+                            <li style="margin-right:350px;">
+                                <p class='oe_mt16'>
+                                 Set by-product valuation method as Standard Cost and 
+                                  input cost on product form of by-product (settings).
+                                </p>
+                            </li>
+                            
+                            <li style="margin-right:399px;">
+                                <p class='oe_mt16'>
+                             Standard Cost of by-product will be reduced from overall 
+                             manufacturing cost of FG (customization)
+                                </p>
+                            </li>
+                            
+                            <li style="margin-right:575px;">
+                                <p class='oe_mt16'>
+                               By-products will be added on given cost on product form (by-default)
+
+
+                                </p>
+                            </li>
+                        </ol>  
+                    </div>
+                </center>
+                
+                
+            
+            <div class="oe_span12">
+                <ol>
+                    <li><b>Bill of Material (BoM)</b>
+                        <p class='oe_mt16'>
+                           The by-products are set on the BoM of a specific product.
+                           Two additional columns are created through customization 
+                           which help see the cost and the &quot;per KG manufactured&quot; cost of the by-product 
+                           as we can see in the picture below.
+                        </p>
+                        
+                        <div class="oe_span12"><center>
+                           <img src="1.png" alt="Sequence definition" style="margin-bottom:40px;"></center>
+                        </div>
+                    </li>
+                   
+                   
+                   <div style="margin-top:35px;">
+                       <li><b>Manufacturing Order (MO)</b>
+                            <p class='oe_mt16'>
+                              After the BoM is prepared, an MO can be created for the specific product. 
+                              And when the MO is processed and marked as done, then the quantity of 
+                              Finished Good as well as the by-products is received in stock
+                               from the product location.
+                            </p>
+                            
+                            <div class="oe_span12"><center>
+                               <img src="2.png" alt="Sequence definition"  style="margin-bottom:40px;"></center>
+                            </div>
+                        </li>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <div style="margin-top:35px;">
+                       <li><b>Cost Analysis</b>
+                            <p class='oe_mt16'>
+                              Cost Analysis report is also customized. The Finished Good is received at the average 
+                              unit cost if the Costing Method is set on AVCO or at Standard cost if the Costing Method
+                              is set on Standard Price.The By-Products are received on standard cost as set on the
+                              product form in Odoo.The cost of raw materials is reduced by the value of total
+                              By-Products produced.As we can see in the picture below. 
+                            </p>
+                            
+                            <div class="oe_span12"><center>
+                               <img src="3.png" alt="Sequence definition"></center>
+                            </div>
+                        </li>
+                    </div>
+                    
+                    
+                </ol>
+            </div>
+             
+        <!-- <div class="oe_span12"><center>
+                <img src="1.png" alt="Sequence definition"></center>
+            </div> -->
+            <!-- <center><p class='oe_mt32'>
+                 After Module installation, a check box “is withholding” becomes visible on a normal tax form in taxes configuration. If                the tax being created is a withholding tax then this “is withholding” box should be checked.
+            </p></center>
+        <div class="oe_span12"><center>
+                <img src="2.png" alt="Sequence definition"></center>
+            </div>
+            
+
+        <center><p class='oe_mt32'>
+                 On payment form, a special field namely “Tax Type” becomes visible in which all withholding taxes’ suggestions can be          seen out of which desired tax can be selected.
+            </p></center>
+        <div class="oe_span12"><center>
+                <img src="3.png" alt="Sequence definition"></center>
+            </div>
+        <p>Note: On a payment with no withholding tax, a withholding of 0% rate should be created and selected. </p>
+
+
+        <center><p class='oe_mt32'>
+                 After the payment is validated, a journal entry is passed on backend in which Bank/cash is credited net of withholding             tax amount.
+            </p></center>
+            <div class="oe_span12"><center>
+                <img src="4.png" alt="Sequence definition"></center> 
+            </div> -->
+        </div>
+
+
+    </div>
+</section>
