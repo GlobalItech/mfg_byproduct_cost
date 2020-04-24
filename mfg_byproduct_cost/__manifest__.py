@@ -13,7 +13,7 @@
              'views/reports.xml',
              ],
     "images": ['static/description/banner.gif'],     
-    "license": "LGPL",
+    "license": "LGPL-3",
     "installable": True,
     "auto_install": False,
     'price': 30.00,
