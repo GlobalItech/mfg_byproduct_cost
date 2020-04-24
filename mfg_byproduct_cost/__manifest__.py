@@ -12,7 +12,7 @@
              'views/shafi_work.xml',
              'views/reports.xml',
              ],
-             
+    "images": ['static/description/banner.gif'],         
     "installable": True,
     "auto_install": False,
     'price': 30.00,
